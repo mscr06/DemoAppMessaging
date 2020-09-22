@@ -12,9 +12,12 @@ How To Use:
 
    docker run  -itd --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 2. Clone the repo.
-3. Build the project...(mvn clean install)
-4. Run jar file in target folder
+3. Update twillio account details in 
+
+   src/main/resources/application.properties
+4. Build the project...(mvn clean install)
+5. Run jar file in target folder
 
    java -jar jar-file
-5. Access index page at localhost:8080
-6. Enter details in the form and submit.
+6. Access index page at localhost:8080
+7. Enter details in the form and submit.
