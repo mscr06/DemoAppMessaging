@@ -9,6 +9,7 @@ Using below Tech Stack:
 
 How To Use:
 1. Download and run rabbitmq docker image
+
    docker run  -itd --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 2. Clone the repo.
 3. Build the project...(mvn clean install)
