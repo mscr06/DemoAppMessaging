@@ -14,6 +14,7 @@ How To Use:
 2. Clone the repo.
 3. Build the project...(mvn clean install)
 4. Run jar file in target folder
-   java -jar <jar-file>
+
+   java -jar jar-file
 5. Access index page at localhost:8080
 6. Enter details in the form and submit.
